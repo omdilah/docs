@@ -1,27 +1,4 @@
----
-title: Create a repo
-redirect_from:
-  - /create-a-repo
-  - /articles/create-a-repo
-  - /github/getting-started-with-github/create-a-repo
-  - /github/getting-started-with-github/quickstart/create-a-repo
-intro: 'To put your project up on {% data variables.product.prodname_dotcom %}, you''ll need to create a repository for it to live in.'
-versions:
-  fpt: '*'
-  ghes: '*'
-  ghae: '*'
-  ghec: '*'
-topics:
-  - Pull requests
-  - Issues
-  - Notifications
-  - Accounts
----
-## Create a repository
 
-{% ifversion fpt or ghec %}
-
-You can store a variety of projects in {% data variables.product.prodname_dotcom %} repositories, including open source projects. With [open source projects](http://opensource.org/about), you can share code to make better, more reliable software. You can use repositories to collaborate with others and track your work. For more information, see "[About repositories](/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-repositories)."
 
 {% elsif ghes or ghae %}
 
@@ -126,7 +103,7 @@ Now that you have created a project, you can start committing changes.
 
 1. Push the changes to your branch.
 
-    ```shell
+ 
     git push --set-upstream origin HEAD
     ```
 
